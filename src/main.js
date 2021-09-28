@@ -3,7 +3,7 @@ import App from './App.vue'
 
 import VueRouter from "vue-router"
 
-import Demo from './lib/formTable/from-table.vue'
+// import Demo from './lib/formTable/from-table.vue'
 
 Vue.use(VueRouter)
 
@@ -15,10 +15,10 @@ Vue.use(ElementUI)
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    {
-      path: '/demo',
-      component: Demo
-    }
+    // {
+    //   path: '/demo',
+    //   component: Demo
+    // }
   ]
 })
 
