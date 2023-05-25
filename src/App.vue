@@ -7,10 +7,7 @@
 
 <script>
 // import mhtPlugin from 'mht-plugin'
-// console.log(test.sum2, mTest)
 // let { mTest } = mhtPlugin
-// console.log(mhtPlugin)
-// console.log(window)
 export default {
   name: 'app',
   data () {
@@ -18,7 +15,7 @@ export default {
     }
   },
   components: {
-    // mTest
+    mTest
   }
 }
 </script>
